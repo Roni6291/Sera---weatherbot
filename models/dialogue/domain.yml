@@ -1,0 +1,65 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_reply
+- utter_help
+- utter_ofc
+- utter_ask_location
+- utter_thanks
+- utter_goodbye
+- action_weather
+- action_temperature
+config:
+  store_entities_as_slots: true
+entities:
+- location
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
+- fine_normal:
+    use_entities: true
+- fine_ask:
+    use_entities: true
+- thanks:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: In what location
+  - text: For which location
+  - text: Which is your desired location
+  utter_default:
+  - text: I am not sure what you're aiming for
+  - text: I am sorry but I am not able to get you
+  - text: My appologies but I am not able to get you
+  utter_goodbye:
+  - text: Bye and have a nice day
+  - text: Bye bye and have a nice day :)
+  utter_greet:
+  - text: Hi!!, how are you doing
+  - text: Hi!!, how are you doing today
+  - text: Hello!, how can I help you today
+  - text: Hey, how are you?
+  utter_help:
+  - text: Great. How can I help you? :)
+  - text: Great. Tell me How can I help you ? :)
+  utter_ofc:
+  - text: I can definitely help you
+  - text: Surely, I can help you
+  utter_reply:
+  - text: I'm doing great. Please let me know what I can do for you.
+  - text: I'm fine. Tell me How can I help you today? :)
+  utter_thanks:
+  - text: thank you, you are welcome
+  - text: you are welcome
+  - text: you're welcome :)

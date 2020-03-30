@@ -1,0 +1,522 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "hey Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "hello Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "Gud morning"
+      },
+      {
+        "intent": "greet",
+        "text": "Gud Morning Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning Sera"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "seeya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "seeya later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell Sera"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye take care"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye tc"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I am doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm fine"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm good"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I am good, how are you doing?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm fine, how are you?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm good, how are you?"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "you are a great help"
+      },
+      {
+        "intent": "thanks",
+        "text": "Wow, Thanks"
+      },
+      {
+        "intent": "inform",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "I wonder what is the weather in New York right now?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather at Barcelona today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "I am going to Berlin today and I wonder what is the weather there?"
+      },
+      {
+        "intent": "inform",
+        "text": "I am planning my trip to [Amsterdam](location:). What is the weather out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me the weather in Dublin, please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "in Mumbai"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Singapore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Venice",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Venice"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Moscow",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Moscow"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Sydney",
+            "entity": "location"
+          }
+        ],
+        "text": "The weather condition in Sydney"
+      },
+      {
+        "intent": "inform",
+        "text": "What's the temperature today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the temperature in London today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather at Barcelona today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "I am going to Berlin today and I wonder what is the temperature there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the temperature out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me the temperature in Dublin, please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "Temperature in Mumbai"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Moscow",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the temperature in Moscow"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": " goodbye",
+        "pattern": "Bye[^\\\\s]*"
+      },
+      {
+        "name": " goodbye",
+        "pattern": "Goodbye[^\\\\s]*"
+      },
+      {
+        "name": " goodbye",
+        "pattern": "bye[^\\\\s]*"
+      },
+      {
+        "name": " goodbye",
+        "pattern": "goodbye[^\\\\s]*"
+      },
+      {
+        "name": "greet",
+        "pattern": "Hey[^\\\\s]*"
+      },
+      {
+        "name": "greet",
+        "pattern": "Hi[^\\\\s]*"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\\\s]*"
+      },
+      {
+        "name": "greet",
+        "pattern": "hi[^\\\\s]*"
+      },
+      {
+        "name": "thanks",
+        "pattern": "Thanks[^\\\\s]*"
+      },
+      {
+        "name": "thanks",
+        "pattern": "thanks[^\\\\s]*"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

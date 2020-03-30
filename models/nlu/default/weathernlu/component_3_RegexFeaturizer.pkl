@@ -1,0 +1,42 @@
+[
+    {
+        "name": " goodbye",
+        "pattern": "Bye[^\\\\s]*"
+    },
+    {
+        "name": " goodbye",
+        "pattern": "Goodbye[^\\\\s]*"
+    },
+    {
+        "name": " goodbye",
+        "pattern": "bye[^\\\\s]*"
+    },
+    {
+        "name": " goodbye",
+        "pattern": "goodbye[^\\\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "Hey[^\\\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "Hi[^\\\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hey[^\\\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hi[^\\\\s]*"
+    },
+    {
+        "name": "thanks",
+        "pattern": "Thanks[^\\\\s]*"
+    },
+    {
+        "name": "thanks",
+        "pattern": "thanks[^\\\\s]*"
+    }
+]

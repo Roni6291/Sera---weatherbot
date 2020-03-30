@@ -1,0 +1,29 @@
+{
+  "states": [
+    "intent_fine_ask",
+    "intent_fine_normal",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform",
+    "intent_thanks",
+    "entity_location",
+    "slot_location_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_utter_greet",
+    "prev_utter_reply",
+    "prev_utter_help",
+    "prev_utter_ofc",
+    "prev_utter_ask_location",
+    "prev_utter_thanks",
+    "prev_utter_goodbye",
+    "prev_action_weather",
+    "prev_action_temperature"
+  ]
+}
